@@ -93,7 +93,7 @@ function Header() {
       {/* Header content... (no changes here unless specifically for reducing its own bottom margin via CSS) */}
       <div className="header-content">
         <div className="logo">
-          <img src="/src/assets/img/Logo.png" alt="Ann Daan Logo" />
+          <img src="Logo.png" alt="Ann Daan Logo" />
           <h1>Ann Daan</h1>
         </div>
         <nav>
@@ -119,25 +119,25 @@ function SliderSection({ plusSlides }) {
         <div className="mySlides fade">
           <div className="numbertext">1 / 4</div>
           <div className="img-container">
-            <img src="/src/assets/img/img1.jpg" alt="Slide 1: People receiving food" />
+            <img src="img1.jpg" alt="Slide 1: People receiving food" />
           </div>
         </div>
         <div className="mySlides fade">
           <div className="numbertext">2 / 4</div>
           <div className="img-container">
-            <img src="/src/assets/img/img2.jpg" alt="Slide 2: Food donation drive" />
+            <img src="img2.jpg" alt="Slide 2: Food donation drive" />
           </div>
         </div>
         <div className="mySlides fade">
           <div className="numbertext">3 / 4</div>
           <div className="img-container">
-            <img src="/src/assets/img/img3.jpg" alt="Slide 3: Volunteers at work" />
+            <img src="img3.jpg" alt="Slide 3: Volunteers at work" />
           </div>
         </div>
         <div className="mySlides fade">
           <div className="numbertext">4 / 4</div>
           <div className="img-container">
-            <img src="/src/assets/img/img4.jpg" alt="Slide 4: Community meal" />
+            <img src="img4.jpg" alt="Slide 4: Community meal" />
           </div>
         </div>
         <a className="prev" onClick={() => plusSlides(-1)} role="button" tabIndex="0" onKeyPress={(e) => e.key === 'Enter' && plusSlides(-1)}>❮</a>
@@ -273,17 +273,17 @@ function HowItWorksSection() {
         <h2>How It Works</h2>
         <div style={{ margin: "50px auto", gap: "30px", display: "flex", justifyContent: "space-around", flexWrap: "wrap", padding: "0 15px" }} className="how-it-works-grid">
           <div className="step slide-in-left">
-            <img src="/src/assets/img/Donate.png" alt="Icon representing food donation" />
+            <img src="Donate.png" alt="Icon representing food donation" />
             <h3>Food is Donated</h3>
             <p>Generous donations of surplus and fresh food from local businesses, farmers, and community members.</p>
           </div>
           <div className="step fade-in">
-            <img src="/src/assets/img/Secure.png" alt="Icon representing food security" />
+            <img src="Secure.png" alt="Icon representing food security" />
             <h3>Food is Secured</h3>
             <p>Food is secured through our network of generous donors and partners, ensuring it reaches those in need.</p>
           </div>
           <div className="step slide-in-right">
-            <img src="/src/assets/img/Pick.png" alt="Icon representing food pickup" />
+            <img src="Pick.png" alt="Icon representing food pickup" />
             <h3>Food is Picked Up</h3>
             <p>Our team ensures that every donation is picked up promptly and delivered safely to those who need it most.</p>
           </div>
@@ -385,14 +385,14 @@ function HowItWorksSection() {
 
 function TeamSection() { 
   const teamMembers = [
-    { name: "Vaidik Saxena", id: "LCS2024016", image: "/src/assets/img/1.jpeg" },
-    { name: "Sumanth V U", id: "LIT2024058", image: "/src/assets/img/2.jpeg" },
-    { name: "Mozammil Ali", id: "LCS2024035", image: "/src/assets/img/3.jpeg" },
-    { name: "Chowdam Tanmai", id: "LCS2024016", image: "/src/assets/img/4.jpeg" },
-    { name: "Sandesh Raj", id: "LCS2024004", image: "/src/assets/img/5.jpeg" },
-    { name: "Vansh Tomar", id: "LCS2024043", image: "/src/assets/img/6.jpeg" },
-    { name: "Gubba Pavani", id: "LIT2024035", image: "/src/assets/img/7.jpeg" },
-    { name: "Shaik Meer G S", id: "LCS2024025", image: "/src/assets/img/8.jpeg" }
+    { name: "Vaidik Saxena", id: "LCS2024016", image: "1.jpeg" },
+    { name: "Sumanth V U", id: "LIT2024058", image: "2.jpeg" },
+    { name: "Mozammil Ali", id: "LCS2024035", image: "3.jpeg" },
+    { name: "Chowdam Tanmai", id: "LCS2024016", image: "4.jpeg" },
+    { name: "Sandesh Raj", id: "LCS2024004", image: "5.jpeg" },
+    { name: "Vansh Tomar", id: "LCS2024043", image: "6.jpeg" },
+    { name: "Gubba Pavani", id: "LIT2024035", image: "7.jpeg" },
+    { name: "Shaik Meer G S", id: "LCS2024025", image: "8.jpeg" }
   ];
 
 
@@ -423,7 +423,7 @@ function Footer() {
         <div className="footer-main">
           <div className="footer-section branding">
             <div className="footer-logo-container">
-              <img src="/src/assets/img/Logo.png" alt="Ann Daan Logo" className="footer-logo" />
+              <img src="Logo.png" alt="Ann Daan Logo" className="footer-logo" />
               <h3>Ann Daan</h3>
             </div>
             <p>Fighting hunger, reducing waste, building community.</p>
