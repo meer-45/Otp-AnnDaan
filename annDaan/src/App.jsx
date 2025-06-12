@@ -222,14 +222,14 @@ function ContributeSection() {
       <div className="container2">
         <h2 id="animationid">Contribute</h2>
         <div className="content-box">
-          <img src="/src/api/i1.jpeg" id="imgid1" alt="Donate Food" />
+          <img src="i1.jpeg" id="imgid1" alt="Donate Food" />
         </div>
         <button onClick={handleDonateClick} className="btn">Donate</button>
       </div>
       <div className="container1">
         <h2 id="animationid-gethelp">Get Help!</h2> {/* Unique ID */}
         <div className="content-box">
-          <img src="/src/api/i2.jpeg" id="imgid2" alt="Get Food Help" />
+          <img src="i2.jpeg" id="imgid2" alt="Get Food Help" />
         </div>
         <button onClick={handleGetHelpClick} className="btn">Get Help</button>
       </div>
@@ -251,14 +251,14 @@ function VolunteerSection() {
       <div className="container2">
         <h2 id="animationid-restaurant">Restaurants</h2>
         <div className="content-box">
-          <img src="/src/api/i3.jpeg" id="imgid3" alt="Restaurant Registration" />
+          <img src="i3.jpeg" id="imgid3" alt="Restaurant Registration" />
         </div>
         <button onClick={handleRestaurantClick} className="btn">Register Your Restaurant</button>
       </div>
       <div className="container2">
         <h2 id="animationid-volunteer">Volunteer!</h2>
         <div className="content-box">
-          <img src="/src/api/i4.jpg" id="imgid4" alt="Volunteer Registration" />
+          <img src="i4.jpg" id="imgid4" alt="Volunteer Registration" />
         </div>
         <button onClick={handleVolunteerClick} className="btn">Register as Volunteer</button>
       </div>
