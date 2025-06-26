@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate as useReactRouterNavigate } from 'react-router-dom';
 import './App.css';
+import Volunteer from './components/Volunteer'
 import RestaurantRegistration from './components/RestaurantRegistration';
 import RestaurantDashboard from './components/RestaurantDashboard';
 
@@ -9,6 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<MainContent />} />
+        <Route path="/volunteer-registration" element={<Volunteer />} />
         <Route path="/restaurant-registration" element={<RestaurantRegistration />} />
         <Route path="/restaurant-dashboard" element={<RestaurantDashboard />} />
       </Routes>
@@ -244,7 +246,8 @@ function VolunteerSection() {
     navigate('/restaurant-registration');
   };
   const handleVolunteerClick = () => {
-    window.location.href = 'https://food-don.vercel.app/volunteer';
+     e.preventDefault();
+    navigate('/volunteer-registration');
   };
   return (
     <section className="contribute">
